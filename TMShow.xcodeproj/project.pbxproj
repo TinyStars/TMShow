@@ -16,6 +16,15 @@
 		8D2F6C021CAA6A990019D579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F6C001CAA6A990019D579 /* LaunchScreen.storyboard */; };
 		8D2F6C0D1CAA6A990019D579 /* TMShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C0C1CAA6A990019D579 /* TMShowTests.m */; };
 		8D2F6C181CAA6A990019D579 /* TMShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C171CAA6A990019D579 /* TMShowUITests.m */; };
+		8D2F6C3A1CAA6CF80019D579 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C351CAA6CF80019D579 /* RDVTabBar.m */; };
+		8D2F6C3B1CAA6CF80019D579 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C371CAA6CF80019D579 /* RDVTabBarController.m */; };
+		8D2F6C3C1CAA6CF80019D579 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C391CAA6CF80019D579 /* RDVTabBarItem.m */; };
+		8D2F6C3F1CAA6D600019D579 /* RDVTabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F6C3E1CAA6D600019D579 /* RDVTabBarController.bundle */; };
+		8D2F6C431CAA6DF30019D579 /* RDVTabBarControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C421CAA6DF30019D579 /* RDVTabBarControllerDemo.m */; };
+		8D2F6C4D1CAA6EC10019D579 /* RDVDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C461CAA6EC10019D579 /* RDVDetailsViewController.m */; };
+		8D2F6C4E1CAA6EC10019D579 /* RDVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C481CAA6EC10019D579 /* RDVFirstViewController.m */; };
+		8D2F6C4F1CAA6EC10019D579 /* RDVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C4A1CAA6EC10019D579 /* RDVSecondViewController.m */; };
+		8D2F6C501CAA6EC10019D579 /* RDVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C4C1CAA6EC10019D579 /* RDVThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,24 @@
 		8D2F6C131CAA6A990019D579 /* TMShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2F6C171CAA6A990019D579 /* TMShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMShowUITests.m; sourceTree = "<group>"; };
 		8D2F6C191CAA6A990019D579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2F6C341CAA6CF80019D579 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		8D2F6C351CAA6CF80019D579 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		8D2F6C361CAA6CF80019D579 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		8D2F6C371CAA6CF80019D579 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		8D2F6C381CAA6CF80019D579 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		8D2F6C391CAA6CF80019D579 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		8D2F6C3E1CAA6D600019D579 /* RDVTabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RDVTabBarController.bundle; sourceTree = "<group>"; };
+		8D2F6C401CAA6D8D0019D579 /* RDVTabBarControllerDemoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarControllerDemoHeader.h; sourceTree = "<group>"; };
+		8D2F6C411CAA6DF30019D579 /* RDVTabBarControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarControllerDemo.h; sourceTree = "<group>"; };
+		8D2F6C421CAA6DF30019D579 /* RDVTabBarControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarControllerDemo.m; sourceTree = "<group>"; };
+		8D2F6C451CAA6EC10019D579 /* RDVDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVDetailsViewController.h; sourceTree = "<group>"; };
+		8D2F6C461CAA6EC10019D579 /* RDVDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVDetailsViewController.m; sourceTree = "<group>"; };
+		8D2F6C471CAA6EC10019D579 /* RDVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVFirstViewController.h; sourceTree = "<group>"; };
+		8D2F6C481CAA6EC10019D579 /* RDVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVFirstViewController.m; sourceTree = "<group>"; };
+		8D2F6C491CAA6EC10019D579 /* RDVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVSecondViewController.h; sourceTree = "<group>"; };
+		8D2F6C4A1CAA6EC10019D579 /* RDVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVSecondViewController.m; sourceTree = "<group>"; };
+		8D2F6C4B1CAA6EC10019D579 /* RDVThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVThirdViewController.h; sourceTree = "<group>"; };
+		8D2F6C4C1CAA6EC10019D579 /* RDVThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +139,7 @@
 				8D2F6C001CAA6A990019D579 /* LaunchScreen.storyboard */,
 				8D2F6C031CAA6A990019D579 /* Info.plist */,
 				8D2F6BFB1CAA6A990019D579 /* TMShow.xcdatamodeld */,
+				8D2F6C301CAA6CF80019D579 /* Source */,
 				8D2F6BEF1CAA6A990019D579 /* Supporting Files */,
 			);
 			path = TMShow;
@@ -141,6 +169,71 @@
 				8D2F6C191CAA6A990019D579 /* Info.plist */,
 			);
 			path = TMShowUITests;
+			sourceTree = "<group>";
+		};
+		8D2F6C301CAA6CF80019D579 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F6C311CAA6CF80019D579 /* Demo */,
+				8D2F6C321CAA6CF80019D579 /* Venders */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8D2F6C311CAA6CF80019D579 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F6C3D1CAA6D600019D579 /* RDVTabBarControllerDemo */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8D2F6C321CAA6CF80019D579 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F6C331CAA6CF80019D579 /* RDVTabBarController */,
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		8D2F6C331CAA6CF80019D579 /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F6C341CAA6CF80019D579 /* RDVTabBar.h */,
+				8D2F6C351CAA6CF80019D579 /* RDVTabBar.m */,
+				8D2F6C361CAA6CF80019D579 /* RDVTabBarController.h */,
+				8D2F6C371CAA6CF80019D579 /* RDVTabBarController.m */,
+				8D2F6C381CAA6CF80019D579 /* RDVTabBarItem.h */,
+				8D2F6C391CAA6CF80019D579 /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		8D2F6C3D1CAA6D600019D579 /* RDVTabBarControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F6C411CAA6DF30019D579 /* RDVTabBarControllerDemo.h */,
+				8D2F6C421CAA6DF30019D579 /* RDVTabBarControllerDemo.m */,
+				8D2F6C401CAA6D8D0019D579 /* RDVTabBarControllerDemoHeader.h */,
+				8D2F6C441CAA6EC10019D579 /* Controllers */,
+				8D2F6C3E1CAA6D600019D579 /* RDVTabBarController.bundle */,
+			);
+			path = RDVTabBarControllerDemo;
+			sourceTree = "<group>";
+		};
+		8D2F6C441CAA6EC10019D579 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F6C451CAA6EC10019D579 /* RDVDetailsViewController.h */,
+				8D2F6C461CAA6EC10019D579 /* RDVDetailsViewController.m */,
+				8D2F6C471CAA6EC10019D579 /* RDVFirstViewController.h */,
+				8D2F6C481CAA6EC10019D579 /* RDVFirstViewController.m */,
+				8D2F6C491CAA6EC10019D579 /* RDVSecondViewController.h */,
+				8D2F6C4A1CAA6EC10019D579 /* RDVSecondViewController.m */,
+				8D2F6C4B1CAA6EC10019D579 /* RDVThirdViewController.h */,
+				8D2F6C4C1CAA6EC10019D579 /* RDVThirdViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +341,7 @@
 			files = (
 				8D2F6C021CAA6A990019D579 /* LaunchScreen.storyboard in Resources */,
 				8D2F6BFF1CAA6A990019D579 /* Assets.xcassets in Resources */,
+				8D2F6C3F1CAA6D600019D579 /* RDVTabBarController.bundle in Resources */,
 				8D2F6BFA1CAA6A990019D579 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,8 +369,16 @@
 			files = (
 				8D2F6BF71CAA6A990019D579 /* ViewController.m in Sources */,
 				8D2F6BFD1CAA6A990019D579 /* TMShow.xcdatamodeld in Sources */,
+				8D2F6C4E1CAA6EC10019D579 /* RDVFirstViewController.m in Sources */,
 				8D2F6BF41CAA6A990019D579 /* AppDelegate.m in Sources */,
+				8D2F6C4D1CAA6EC10019D579 /* RDVDetailsViewController.m in Sources */,
+				8D2F6C3A1CAA6CF80019D579 /* RDVTabBar.m in Sources */,
+				8D2F6C3B1CAA6CF80019D579 /* RDVTabBarController.m in Sources */,
+				8D2F6C4F1CAA6EC10019D579 /* RDVSecondViewController.m in Sources */,
+				8D2F6C431CAA6DF30019D579 /* RDVTabBarControllerDemo.m in Sources */,
+				8D2F6C501CAA6EC10019D579 /* RDVThirdViewController.m in Sources */,
 				8D2F6BF11CAA6A990019D579 /* main.m in Sources */,
+				8D2F6C3C1CAA6CF80019D579 /* RDVTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +606,7 @@
 				8D2F6C1E1CAA6A990019D579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2F6C1F1CAA6A990019D579 /* Build configuration list for PBXNativeTarget "TMShowTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +615,7 @@
 				8D2F6C211CAA6A990019D579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2F6C221CAA6A990019D579 /* Build configuration list for PBXNativeTarget "TMShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +624,7 @@
 				8D2F6C241CAA6A990019D579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
