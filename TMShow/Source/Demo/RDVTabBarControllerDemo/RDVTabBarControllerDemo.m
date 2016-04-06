@@ -11,7 +11,7 @@
 
 #import "RDVTabBarControllerDemo.h"
 
-#import "RDVFirstViewController.h"
+#import "DemosTableViewController.h"
 #import "RDVSecondViewController.h"
 #import "RDVThirdViewController.h"
 #import "RDVTabBarItem.h"
@@ -21,7 +21,7 @@
 
 + (void)setupViewControllersWithRDVTabBarController:(RDVTabBarController*)tabBarController;
 {
-    UIViewController *firstViewController = [[RDVFirstViewController alloc] init];
+    DemosTableViewController *firstViewController = [[DemosTableViewController alloc] init];
     UIViewController *firstNavigationController = [[UINavigationController alloc]
                                                    initWithRootViewController:firstViewController];
     
