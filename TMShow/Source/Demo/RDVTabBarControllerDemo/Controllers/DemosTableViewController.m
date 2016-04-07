@@ -7,9 +7,11 @@
 //
 
 #import "DemosTableViewController.h"
-#import "DemosTableViewCell.h"
 #import "UITableView+Extension.h"
 #import "RuleViewController.h"
+
+
+#import "VLFTableViewCell.h"
 
 
 #import "RDVTabBarController.h"
@@ -28,8 +30,10 @@
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
     [self.tableView registerCellWithNib:@"DemosTableViewCell"];
+    [self.tableView registerClass:[VLFTableViewCell class] forCellReuseIdentifier:@"VLFTableViewCell"];
     self.srcArray = @[
                       @"展示直尺功能\n    ControllerName:\n       RuleViewController"
+                      
                       ];
 }
 
@@ -64,14 +68,10 @@
     
 }
 
-
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *title = _srcArray[indexPath.row];
-    DemosTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DemosTableViewCell" forIndexPath:indexPath];
-
-    cell.msgLabel.text = title;
-    
+    VLFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"VLFTableViewCell"];
+    cell.detailLabel.text = title;
     return cell;
 }
 

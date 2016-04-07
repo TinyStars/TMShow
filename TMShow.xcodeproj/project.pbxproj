@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0C48C21CB65FB60015C9F4 /* VLFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C48C11CB65FB60015C9F4 /* VLFTableViewCell.m */; };
 		8D2F6BF11CAA6A990019D579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6BF01CAA6A990019D579 /* main.m */; };
 		8D2F6BF41CAA6A990019D579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6BF31CAA6A990019D579 /* AppDelegate.m */; };
 		8D2F6BF71CAA6A990019D579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6BF61CAA6A990019D579 /* ViewController.m */; };
@@ -50,12 +51,6 @@
 		8D8C9D9D1CAA834B001357D6 /* DemosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8C9D991CAA834B001357D6 /* DemosTableViewController.xib */; };
 		8D8C9D9E1CAA834B001357D6 /* DemosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8C9D991CAA834B001357D6 /* DemosTableViewController.xib */; };
 		8D8C9D9F1CAA834B001357D6 /* DemosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8C9D991CAA834B001357D6 /* DemosTableViewController.xib */; };
-		8D8C9DA41CAA83F9001357D6 /* DemosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DA21CAA83F9001357D6 /* DemosTableViewCell.m */; };
-		8D8C9DA51CAA83F9001357D6 /* DemosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DA21CAA83F9001357D6 /* DemosTableViewCell.m */; };
-		8D8C9DA61CAA83F9001357D6 /* DemosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DA21CAA83F9001357D6 /* DemosTableViewCell.m */; };
-		8D8C9DA71CAA83F9001357D6 /* DemosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8C9DA31CAA83F9001357D6 /* DemosTableViewCell.xib */; };
-		8D8C9DA81CAA83F9001357D6 /* DemosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8C9DA31CAA83F9001357D6 /* DemosTableViewCell.xib */; };
-		8D8C9DA91CAA83F9001357D6 /* DemosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8C9DA31CAA83F9001357D6 /* DemosTableViewCell.xib */; };
 		8D8C9DAE1CAA84D3001357D6 /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DAD1CAA84D3001357D6 /* UITableView+Extension.m */; };
 		8D8C9DAF1CAA84D3001357D6 /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DAD1CAA84D3001357D6 /* UITableView+Extension.m */; };
 		8D8C9DB01CAA84D3001357D6 /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DAD1CAA84D3001357D6 /* UITableView+Extension.m */; };
@@ -121,6 +116,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0C48C01CB65FB60015C9F4 /* VLFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLFTableViewCell.h; sourceTree = "<group>"; };
+		8D0C48C11CB65FB60015C9F4 /* VLFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLFTableViewCell.m; sourceTree = "<group>"; };
 		8D2F6BEC1CAA6A990019D579 /* TMShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2F6BF01CAA6A990019D579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D2F6BF21CAA6A990019D579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -202,9 +199,6 @@
 		8D8C9D971CAA834B001357D6 /* DemosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemosTableViewController.h; sourceTree = "<group>"; };
 		8D8C9D981CAA834B001357D6 /* DemosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemosTableViewController.m; sourceTree = "<group>"; };
 		8D8C9D991CAA834B001357D6 /* DemosTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemosTableViewController.xib; sourceTree = "<group>"; };
-		8D8C9DA11CAA83F9001357D6 /* DemosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemosTableViewCell.h; sourceTree = "<group>"; };
-		8D8C9DA21CAA83F9001357D6 /* DemosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemosTableViewCell.m; sourceTree = "<group>"; };
-		8D8C9DA31CAA83F9001357D6 /* DemosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemosTableViewCell.xib; sourceTree = "<group>"; };
 		8D8C9DAC1CAA84D3001357D6 /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
 		8D8C9DAD1CAA84D3001357D6 /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
 		8D8C9DB21CAA8515001357D6 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
@@ -491,9 +485,8 @@
 		8D8C9DA01CAA83E5001357D6 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				8D8C9DA11CAA83F9001357D6 /* DemosTableViewCell.h */,
-				8D8C9DA21CAA83F9001357D6 /* DemosTableViewCell.m */,
-				8D8C9DA31CAA83F9001357D6 /* DemosTableViewCell.xib */,
+				8D0C48C01CB65FB60015C9F4 /* VLFTableViewCell.h */,
+				8D0C48C11CB65FB60015C9F4 /* VLFTableViewCell.m */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -675,7 +668,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8C9DA71CAA83F9001357D6 /* DemosTableViewCell.xib in Resources */,
 				8D8C9D9D1CAA834B001357D6 /* DemosTableViewController.xib in Resources */,
 				8D2F6C021CAA6A990019D579 /* LaunchScreen.storyboard in Resources */,
 				8D2F6BFF1CAA6A990019D579 /* Assets.xcassets in Resources */,
@@ -692,7 +684,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8C9DA81CAA83F9001357D6 /* DemosTableViewCell.xib in Resources */,
 				8D8C9D9E1CAA834B001357D6 /* DemosTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,7 +692,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8C9DA91CAA83F9001357D6 /* DemosTableViewCell.xib in Resources */,
 				8D8C9D9F1CAA834B001357D6 /* DemosTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -736,7 +726,6 @@
 				8D8C9D901CAA816B001357D6 /* MASLayoutConstraint.m in Sources */,
 				8D8C9DD81CAA8562001357D6 /* MJProperty.m in Sources */,
 				8D8C9DD21CAA8562001357D6 /* MJExtensionConst.m in Sources */,
-				8D8C9DA41CAA83F9001357D6 /* DemosTableViewCell.m in Sources */,
 				8D8C9D8D1CAA816B001357D6 /* MASCompositeConstraint.m in Sources */,
 				8D3A51901CB63C5300905FB0 /* ServiceMonitor.m in Sources */,
 				8D2F6C4D1CAA6EC10019D579 /* RDVDetailsViewController.m in Sources */,
@@ -749,6 +738,7 @@
 				8D2F6C4F1CAA6EC10019D579 /* RDVSecondViewController.m in Sources */,
 				8D8C9D491CAA8107001357D6 /* RDVTabBarController.m in Sources */,
 				8D8C9DE71CAA8562001357D6 /* NSObject+MJKeyValue.m in Sources */,
+				8D0C48C21CB65FB60015C9F4 /* VLFTableViewCell.m in Sources */,
 				8D2F6C431CAA6DF30019D579 /* RDVTabBarControllerDemo.m in Sources */,
 				8D2F6C501CAA6EC10019D579 /* RDVThirdViewController.m in Sources */,
 				8D3A51931CB63C5300905FB0 /* ServiceMonitorMemoryModel.m in Sources */,
@@ -778,7 +768,6 @@
 				8D8C9DEB1CAA8562001357D6 /* NSObject+MJProperty.m in Sources */,
 				8D8C9DEE1CAA8562001357D6 /* NSString+MJExtension.m in Sources */,
 				8D8C9DE51CAA8562001357D6 /* NSObject+MJCoding.m in Sources */,
-				8D8C9DA51CAA83F9001357D6 /* DemosTableViewCell.m in Sources */,
 				8D8C9DDC1CAA8562001357D6 /* MJPropertyKey.m in Sources */,
 				8D8C9DE81CAA8562001357D6 /* NSObject+MJKeyValue.m in Sources */,
 				8D8C9DE21CAA8562001357D6 /* NSObject+MJClass.m in Sources */,
@@ -801,7 +790,6 @@
 				8D8C9DEC1CAA8562001357D6 /* NSObject+MJProperty.m in Sources */,
 				8D8C9DEF1CAA8562001357D6 /* NSString+MJExtension.m in Sources */,
 				8D8C9DE61CAA8562001357D6 /* NSObject+MJCoding.m in Sources */,
-				8D8C9DA61CAA83F9001357D6 /* DemosTableViewCell.m in Sources */,
 				8D8C9DDD1CAA8562001357D6 /* MJPropertyKey.m in Sources */,
 				8D8C9DE91CAA8562001357D6 /* NSObject+MJKeyValue.m in Sources */,
 				8D8C9DE31CAA8562001357D6 /* NSObject+MJClass.m in Sources */,
