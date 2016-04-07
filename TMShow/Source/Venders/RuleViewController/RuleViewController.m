@@ -63,8 +63,6 @@
     
     _taleView.contentInset = insets;
     _taleView.contentOffset = CGPointMake(0, -insets.top);
-    
-    [_taleView scrollsToTop];
 }
 
 
@@ -99,7 +97,6 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(RuleTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
     [cell configCell:_sourceArray[indexPath.row]];
 }
 
