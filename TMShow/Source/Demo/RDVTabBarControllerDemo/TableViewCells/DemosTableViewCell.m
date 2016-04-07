@@ -12,24 +12,13 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    self.msgLabel.numberOfLines = 0;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
-}
-
-- (void)layoutSubviews
-{
-    [super layoutSubviews];
-    
-    [self.contentView setNeedsLayout];
-    [self.contentView layoutIfNeeded];
-    
-    // Set the preferredMaxLayoutWidth of the mutli-line bodyLabel based on the evaluated width of the label's frame,
-    // as this will allow the text to wrap correctly, and as a result allow the label to take on the correct height.
-    self.msgLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.msgLabel.frame);
 }
 
 @end

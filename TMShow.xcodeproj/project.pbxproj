@@ -21,6 +21,15 @@
 		8D2F6C4D1CAA6EC10019D579 /* RDVDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C461CAA6EC10019D579 /* RDVDetailsViewController.m */; };
 		8D2F6C4F1CAA6EC10019D579 /* RDVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C4A1CAA6EC10019D579 /* RDVSecondViewController.m */; };
 		8D2F6C501CAA6EC10019D579 /* RDVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6C4C1CAA6EC10019D579 /* RDVThirdViewController.m */; };
+		8D3A518D1CB63C5300905FB0 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A517A1CB63C5300905FB0 /* JBBarChartView.m */; };
+		8D3A518E1CB63C5300905FB0 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A517C1CB63C5300905FB0 /* JBChartView.m */; };
+		8D3A518F1CB63C5300905FB0 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A517E1CB63C5300905FB0 /* JBLineChartView.m */; };
+		8D3A51901CB63C5300905FB0 /* ServiceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A51821CB63C5300905FB0 /* ServiceMonitor.m */; };
+		8D3A51911CB63C5300905FB0 /* ServiceMonitorCPUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A51841CB63C5300905FB0 /* ServiceMonitorCPUModel.m */; };
+		8D3A51921CB63C5300905FB0 /* ServiceMonitorFPSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A51861CB63C5300905FB0 /* ServiceMonitorFPSModel.m */; };
+		8D3A51931CB63C5300905FB0 /* ServiceMonitorMemoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A51881CB63C5300905FB0 /* ServiceMonitorMemoryModel.m */; };
+		8D3A51941CB63C5300905FB0 /* ServiceMonitorNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A518A1CB63C5300905FB0 /* ServiceMonitorNetworkModel.m */; };
+		8D3A51951CB63C5300905FB0 /* ServiceMonitorStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A518C1CB63C5300905FB0 /* ServiceMonitorStatusBar.m */; };
 		8D8C9D481CAA8107001357D6 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9D431CAA8107001357D6 /* RDVTabBar.m */; };
 		8D8C9D491CAA8107001357D6 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9D451CAA8107001357D6 /* RDVTabBarController.m */; };
 		8D8C9D4A1CAA8107001357D6 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9D471CAA8107001357D6 /* RDVTabBarItem.m */; };
@@ -86,6 +95,12 @@
 		8D8C9DED1CAA8562001357D6 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DD11CAA8562001357D6 /* NSString+MJExtension.m */; };
 		8D8C9DEE1CAA8562001357D6 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DD11CAA8562001357D6 /* NSString+MJExtension.m */; };
 		8D8C9DEF1CAA8562001357D6 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C9DD11CAA8562001357D6 /* NSString+MJExtension.m */; };
+		8DC588F21CB6428D009D7211 /* RuleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC588EA1CB6428D009D7211 /* RuleTableViewCell.m */; };
+		8DC588F31CB6428D009D7211 /* RuleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC588EB1CB6428D009D7211 /* RuleTableViewCell.xib */; };
+		8DC588F41CB6428D009D7211 /* RuleTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC588ED1CB6428D009D7211 /* RuleTableViewCellModel.m */; };
+		8DC588F51CB6428D009D7211 /* RuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC588EF1CB6428D009D7211 /* RuleViewController.m */; };
+		8DC588F61CB6428D009D7211 /* RuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC588F01CB6428D009D7211 /* RuleViewController.xib */; };
+		8DC588F81CB642DB009D7211 /* RuleViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8DC588F71CB642DB009D7211 /* RuleViewController.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +148,25 @@
 		8D2F6C4A1CAA6EC10019D579 /* RDVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVSecondViewController.m; sourceTree = "<group>"; };
 		8D2F6C4B1CAA6EC10019D579 /* RDVThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVThirdViewController.h; sourceTree = "<group>"; };
 		8D2F6C4C1CAA6EC10019D579 /* RDVThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVThirdViewController.m; sourceTree = "<group>"; };
+		8D3A51791CB63C5300905FB0 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		8D3A517A1CB63C5300905FB0 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		8D3A517B1CB63C5300905FB0 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		8D3A517C1CB63C5300905FB0 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		8D3A517D1CB63C5300905FB0 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		8D3A517E1CB63C5300905FB0 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		8D3A517F1CB63C5300905FB0 /* Monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monitor.h; sourceTree = "<group>"; };
+		8D3A51811CB63C5300905FB0 /* ServiceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitor.h; sourceTree = "<group>"; };
+		8D3A51821CB63C5300905FB0 /* ServiceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitor.m; sourceTree = "<group>"; };
+		8D3A51831CB63C5300905FB0 /* ServiceMonitorCPUModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorCPUModel.h; sourceTree = "<group>"; };
+		8D3A51841CB63C5300905FB0 /* ServiceMonitorCPUModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorCPUModel.m; sourceTree = "<group>"; };
+		8D3A51851CB63C5300905FB0 /* ServiceMonitorFPSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorFPSModel.h; sourceTree = "<group>"; };
+		8D3A51861CB63C5300905FB0 /* ServiceMonitorFPSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorFPSModel.m; sourceTree = "<group>"; };
+		8D3A51871CB63C5300905FB0 /* ServiceMonitorMemoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorMemoryModel.h; sourceTree = "<group>"; };
+		8D3A51881CB63C5300905FB0 /* ServiceMonitorMemoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorMemoryModel.m; sourceTree = "<group>"; };
+		8D3A51891CB63C5300905FB0 /* ServiceMonitorNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorNetworkModel.h; sourceTree = "<group>"; };
+		8D3A518A1CB63C5300905FB0 /* ServiceMonitorNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorNetworkModel.m; sourceTree = "<group>"; };
+		8D3A518B1CB63C5300905FB0 /* ServiceMonitorStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorStatusBar.h; sourceTree = "<group>"; };
+		8D3A518C1CB63C5300905FB0 /* ServiceMonitorStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorStatusBar.m; sourceTree = "<group>"; };
 		8D8C9D421CAA8107001357D6 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
 		8D8C9D431CAA8107001357D6 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
 		8D8C9D441CAA8107001357D6 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
@@ -198,6 +232,16 @@
 		8D8C9DCF1CAA8562001357D6 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		8D8C9DD01CAA8562001357D6 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		8D8C9DD11CAA8562001357D6 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		8DC588E91CB6428D009D7211 /* RuleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleTableViewCell.h; sourceTree = "<group>"; };
+		8DC588EA1CB6428D009D7211 /* RuleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleTableViewCell.m; sourceTree = "<group>"; };
+		8DC588EB1CB6428D009D7211 /* RuleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuleTableViewCell.xib; sourceTree = "<group>"; };
+		8DC588EC1CB6428D009D7211 /* RuleTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleTableViewCellModel.h; sourceTree = "<group>"; };
+		8DC588ED1CB6428D009D7211 /* RuleTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleTableViewCellModel.m; sourceTree = "<group>"; };
+		8DC588EE1CB6428D009D7211 /* RuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleViewController.h; sourceTree = "<group>"; };
+		8DC588EF1CB6428D009D7211 /* RuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleViewController.m; sourceTree = "<group>"; };
+		8DC588F01CB6428D009D7211 /* RuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuleViewController.xib; sourceTree = "<group>"; };
+		8DC588F71CB642DB009D7211 /* RuleViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RuleViewController.bundle; sourceTree = "<group>"; };
+		8DC588F91CB6430B009D7211 /* RuleViewControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleViewControllerHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +296,7 @@
 				8D2F6BF31CAA6A990019D579 /* AppDelegate.m */,
 				8D2F6BF51CAA6A990019D579 /* ViewController.h */,
 				8D2F6BF61CAA6A990019D579 /* ViewController.m */,
+				8D3A51771CB63C5300905FB0 /* Monitor */,
 				8D2F6BF81CAA6A990019D579 /* Main.storyboard */,
 				8D2F6BFE1CAA6A990019D579 /* Assets.xcassets */,
 				8D2F6C001CAA6A990019D579 /* LaunchScreen.storyboard */,
@@ -309,6 +354,7 @@
 		8D2F6C321CAA6CF80019D579 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				8DC588E71CB6428D009D7211 /* RuleViewController */,
 				8D8C9D401CAA8107001357D6 /* Common */,
 			);
 			path = Venders;
@@ -341,6 +387,48 @@
 				8D2F6C4C1CAA6EC10019D579 /* RDVThirdViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D3A51771CB63C5300905FB0 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A51781CB63C5300905FB0 /* JBChartView */,
+				8D3A517F1CB63C5300905FB0 /* Monitor.h */,
+				8D3A51801CB63C5300905FB0 /* ServiceMonitor */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		8D3A51781CB63C5300905FB0 /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A51791CB63C5300905FB0 /* JBBarChartView.h */,
+				8D3A517A1CB63C5300905FB0 /* JBBarChartView.m */,
+				8D3A517B1CB63C5300905FB0 /* JBChartView.h */,
+				8D3A517C1CB63C5300905FB0 /* JBChartView.m */,
+				8D3A517D1CB63C5300905FB0 /* JBLineChartView.h */,
+				8D3A517E1CB63C5300905FB0 /* JBLineChartView.m */,
+			);
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+		8D3A51801CB63C5300905FB0 /* ServiceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A51811CB63C5300905FB0 /* ServiceMonitor.h */,
+				8D3A51821CB63C5300905FB0 /* ServiceMonitor.m */,
+				8D3A51831CB63C5300905FB0 /* ServiceMonitorCPUModel.h */,
+				8D3A51841CB63C5300905FB0 /* ServiceMonitorCPUModel.m */,
+				8D3A51851CB63C5300905FB0 /* ServiceMonitorFPSModel.h */,
+				8D3A51861CB63C5300905FB0 /* ServiceMonitorFPSModel.m */,
+				8D3A51871CB63C5300905FB0 /* ServiceMonitorMemoryModel.h */,
+				8D3A51881CB63C5300905FB0 /* ServiceMonitorMemoryModel.m */,
+				8D3A51891CB63C5300905FB0 /* ServiceMonitorNetworkModel.h */,
+				8D3A518A1CB63C5300905FB0 /* ServiceMonitorNetworkModel.m */,
+				8D3A518B1CB63C5300905FB0 /* ServiceMonitorStatusBar.h */,
+				8D3A518C1CB63C5300905FB0 /* ServiceMonitorStatusBar.m */,
+			);
+			path = ServiceMonitor;
 			sourceTree = "<group>";
 		};
 		8D8C9D401CAA8107001357D6 /* Common */ = {
@@ -467,6 +555,23 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		8DC588E71CB6428D009D7211 /* RuleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8DC588F91CB6430B009D7211 /* RuleViewControllerHeader.h */,
+				8DC588F71CB642DB009D7211 /* RuleViewController.bundle */,
+				8DC588E91CB6428D009D7211 /* RuleTableViewCell.h */,
+				8DC588EA1CB6428D009D7211 /* RuleTableViewCell.m */,
+				8DC588EB1CB6428D009D7211 /* RuleTableViewCell.xib */,
+				8DC588EC1CB6428D009D7211 /* RuleTableViewCellModel.h */,
+				8DC588ED1CB6428D009D7211 /* RuleTableViewCellModel.m */,
+				8DC588EE1CB6428D009D7211 /* RuleViewController.h */,
+				8DC588EF1CB6428D009D7211 /* RuleViewController.m */,
+				8DC588F01CB6428D009D7211 /* RuleViewController.xib */,
+			);
+			path = RuleViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -575,8 +680,11 @@
 				8D2F6C021CAA6A990019D579 /* LaunchScreen.storyboard in Resources */,
 				8D2F6BFF1CAA6A990019D579 /* Assets.xcassets in Resources */,
 				8D2F6C3F1CAA6D600019D579 /* RDVTabBarController.bundle in Resources */,
+				8DC588F61CB6428D009D7211 /* RuleViewController.xib in Resources */,
+				8DC588F81CB642DB009D7211 /* RuleViewController.bundle in Resources */,
 				8D8C9D8C1CAA816B001357D6 /* Info.plist in Resources */,
 				8D2F6BFA1CAA6A990019D579 /* Main.storyboard in Resources */,
+				8DC588F31CB6428D009D7211 /* RuleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,13 +714,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D2F6BF71CAA6A990019D579 /* ViewController.m in Sources */,
+				8DC588F41CB6428D009D7211 /* RuleTableViewCellModel.m in Sources */,
+				8D3A518F1CB63C5300905FB0 /* JBLineChartView.m in Sources */,
 				8D8C9D9A1CAA834B001357D6 /* DemosTableViewController.m in Sources */,
+				8DC588F21CB6428D009D7211 /* RuleTableViewCell.m in Sources */,
+				8D3A51941CB63C5300905FB0 /* ServiceMonitorNetworkModel.m in Sources */,
+				8DC588F51CB6428D009D7211 /* RuleViewController.m in Sources */,
 				8D8C9DEA1CAA8562001357D6 /* NSObject+MJProperty.m in Sources */,
+				8D3A518D1CB63C5300905FB0 /* JBBarChartView.m in Sources */,
 				8D8C9DDE1CAA8562001357D6 /* MJPropertyType.m in Sources */,
 				8D8C9DB61CAA8515001357D6 /* NSObject+Extension.m in Sources */,
 				8D8C9D931CAA816B001357D6 /* NSArray+MASAdditions.m in Sources */,
 				8D2F6BFD1CAA6A990019D579 /* TMShow.xcdatamodeld in Sources */,
 				8D8C9DB91CAA8515001357D6 /* NSObject+MethodSwizzle.m in Sources */,
+				8D3A51951CB63C5300905FB0 /* ServiceMonitorStatusBar.m in Sources */,
 				8D8C9DED1CAA8562001357D6 /* NSString+MJExtension.m in Sources */,
 				8D8C9D941CAA816B001357D6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				8D8C9DDB1CAA8562001357D6 /* MJPropertyKey.m in Sources */,
@@ -623,23 +738,28 @@
 				8D8C9DD21CAA8562001357D6 /* MJExtensionConst.m in Sources */,
 				8D8C9DA41CAA83F9001357D6 /* DemosTableViewCell.m in Sources */,
 				8D8C9D8D1CAA816B001357D6 /* MASCompositeConstraint.m in Sources */,
+				8D3A51901CB63C5300905FB0 /* ServiceMonitor.m in Sources */,
 				8D2F6C4D1CAA6EC10019D579 /* RDVDetailsViewController.m in Sources */,
 				8D8C9DE41CAA8562001357D6 /* NSObject+MJCoding.m in Sources */,
 				8D8C9DAE1CAA84D3001357D6 /* UITableView+Extension.m in Sources */,
 				8D8C9DD51CAA8562001357D6 /* MJFoundation.m in Sources */,
 				8D8C9D4A1CAA8107001357D6 /* RDVTabBarItem.m in Sources */,
 				8D8C9D921CAA816B001357D6 /* MASViewConstraint.m in Sources */,
+				8D3A51911CB63C5300905FB0 /* ServiceMonitorCPUModel.m in Sources */,
 				8D2F6C4F1CAA6EC10019D579 /* RDVSecondViewController.m in Sources */,
 				8D8C9D491CAA8107001357D6 /* RDVTabBarController.m in Sources */,
 				8D8C9DE71CAA8562001357D6 /* NSObject+MJKeyValue.m in Sources */,
 				8D2F6C431CAA6DF30019D579 /* RDVTabBarControllerDemo.m in Sources */,
 				8D2F6C501CAA6EC10019D579 /* RDVThirdViewController.m in Sources */,
+				8D3A51931CB63C5300905FB0 /* ServiceMonitorMemoryModel.m in Sources */,
 				8D8C9D961CAA816B001357D6 /* ViewController+MASAdditions.m in Sources */,
 				8D8C9D8F1CAA816B001357D6 /* MASConstraintMaker.m in Sources */,
 				8D8C9D481CAA8107001357D6 /* RDVTabBar.m in Sources */,
+				8D3A518E1CB63C5300905FB0 /* JBChartView.m in Sources */,
 				8D8C9D8E1CAA816B001357D6 /* MASConstraint.m in Sources */,
 				8D8C9DE11CAA8562001357D6 /* NSObject+MJClass.m in Sources */,
 				8D2F6BF11CAA6A990019D579 /* main.m in Sources */,
+				8D3A51921CB63C5300905FB0 /* ServiceMonitorFPSModel.m in Sources */,
 				8D8C9D951CAA816B001357D6 /* View+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
