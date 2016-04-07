@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D0C48C21CB65FB60015C9F4 /* VLFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C48C11CB65FB60015C9F4 /* VLFTableViewCell.m */; };
+		8D0C48C51CB6698A0015C9F4 /* VLFRuleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C48C41CB6698A0015C9F4 /* VLFRuleTableViewCell.m */; };
 		8D2F6BF11CAA6A990019D579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6BF01CAA6A990019D579 /* main.m */; };
 		8D2F6BF41CAA6A990019D579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6BF31CAA6A990019D579 /* AppDelegate.m */; };
 		8D2F6BF71CAA6A990019D579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F6BF61CAA6A990019D579 /* ViewController.m */; };
@@ -118,6 +119,8 @@
 /* Begin PBXFileReference section */
 		8D0C48C01CB65FB60015C9F4 /* VLFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLFTableViewCell.h; sourceTree = "<group>"; };
 		8D0C48C11CB65FB60015C9F4 /* VLFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLFTableViewCell.m; sourceTree = "<group>"; };
+		8D0C48C31CB6698A0015C9F4 /* VLFRuleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLFRuleTableViewCell.h; sourceTree = "<group>"; };
+		8D0C48C41CB6698A0015C9F4 /* VLFRuleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLFRuleTableViewCell.m; sourceTree = "<group>"; };
 		8D2F6BEC1CAA6A990019D579 /* TMShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2F6BF01CAA6A990019D579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D2F6BF21CAA6A990019D579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -556,6 +559,8 @@
 				8DC588E91CB6428D009D7211 /* RuleTableViewCell.h */,
 				8DC588EA1CB6428D009D7211 /* RuleTableViewCell.m */,
 				8DC588EB1CB6428D009D7211 /* RuleTableViewCell.xib */,
+				8D0C48C31CB6698A0015C9F4 /* VLFRuleTableViewCell.h */,
+				8D0C48C41CB6698A0015C9F4 /* VLFRuleTableViewCell.m */,
 				8DC588EC1CB6428D009D7211 /* RuleTableViewCellModel.h */,
 				8DC588ED1CB6428D009D7211 /* RuleTableViewCellModel.m */,
 				8DC588EE1CB6428D009D7211 /* RuleViewController.h */,
@@ -730,6 +735,7 @@
 				8D3A51901CB63C5300905FB0 /* ServiceMonitor.m in Sources */,
 				8D2F6C4D1CAA6EC10019D579 /* RDVDetailsViewController.m in Sources */,
 				8D8C9DE41CAA8562001357D6 /* NSObject+MJCoding.m in Sources */,
+				8D0C48C51CB6698A0015C9F4 /* VLFRuleTableViewCell.m in Sources */,
 				8D8C9DAE1CAA84D3001357D6 /* UITableView+Extension.m in Sources */,
 				8D8C9DD51CAA8562001357D6 /* MJFoundation.m in Sources */,
 				8D8C9D4A1CAA8107001357D6 /* RDVTabBarItem.m in Sources */,
