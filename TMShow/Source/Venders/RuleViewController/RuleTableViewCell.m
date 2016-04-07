@@ -13,10 +13,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
-    
     self.ruleLabel.transform = CGAffineTransformRotate(self.ruleLabel.transform, M_PI_2);
-
-    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -28,16 +25,7 @@
 - (void)configCell:(RuleTableViewCellModel*)model
 {
     self.ruleTableViewCellState = [self stateWithNumber:model.rule];
-    self.ruleLabel.text = [NSString stringWithFormat:@"%.0lf",model.rule ];
-//    if ([self stateWithNumber:model.rule]) {
-//        self.ruleTableViewCellState = [self stateWithNumber:model.rule];
-//        self.ruleLabel.text = [NSString stringWithFormat:@"%.0lf",model.rule ];
-//    }
-//    else
-//    {
-//        self.ruleTableViewCellState = RuleTableViewCellStateShort;
-//        self.ruleLabel.text = [NSString stringWithFormat:@"%.0lf",model.rule];
-//    }
+    self.ruleLabel.text = [NSString stringWithFormat:@"%.0lf",model.rule];
 }
 
 - (void)setRuleTableViewCellState:(NSInteger)ruleTableViewCellState
