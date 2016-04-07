@@ -10,7 +10,10 @@
 
 @protocol RuleViewControllerRuleChangeDelegate <NSObject>
 
+@optional
+
 - (void)ruleDidChange:(CGFloat)current;
+
 
 @end
 

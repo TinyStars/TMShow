@@ -79,7 +79,7 @@
     if (_ruleMin >= _ruleMax) {
         _ruleMax = _ruleMin + 10 ;
     }
-    _mistake = ((NSInteger)(_ruleMax - _ruleMin) + 1) * 10;
+    _mistake = ((NSInteger)(_ruleMax - _ruleMin)) * 10;
     
     CGFloat kRuleMax = _ruleMax;
     
