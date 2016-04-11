@@ -25,10 +25,17 @@
 @end
 
 @implementation DemosTableViewController
-
+- (void)dragBack {
+    [self.navigationController setNavigationBarHidden:NO];       // 使导航条有效
+    [self.navigationController.navigationBar setHidden:YES];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0f)
+    {
+        self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+    }else{}
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBarHidden = YES;
+    [self dragBack];
     [self.tableView registerCellWithNib:@"DemosTableViewCell"];
     [self.tableView registerClass:[VLFTableViewCell class] forCellReuseIdentifier:@"VLFTableViewCell"];
     self.srcArray = @[

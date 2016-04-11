@@ -48,9 +48,18 @@
 }
 
 
+- (void)dragBack {
+    [self.navigationController setNavigationBarHidden:NO];       // 使导航条有效
+    [self.navigationController.navigationBar setHidden:YES];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0f)
+    {
+        self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+    }else{}
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBarHidden = NO;
+    [self dragBack];
     self.messageBackgroundView.image = [UIImage imageNamed:RuleViewControllerSrcName(@"indicator_frame_growth_record_orange_1")];
     // Do any additional setup after loading the view from its nib.
     [self.taleView registerNib:[UINib nibWithNibName:@"RuleTableViewCell" bundle:nil] forCellReuseIdentifier:@"RuleTableViewCell"];
