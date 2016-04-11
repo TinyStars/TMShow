@@ -34,7 +34,7 @@
     
     NSLayoutConstraint *ruleLabelCenterX = [NSLayoutConstraint constraintWithItem:ruleLabel attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:ruleBackgroundView attribute:NSLayoutAttributeCenterX multiplier:1 constant:0];
     NSLayoutConstraint *ruleLabelCenterY= [NSLayoutConstraint constraintWithItem:ruleLabel attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:ruleBackgroundView attribute:NSLayoutAttributeCenterY multiplier:1 constant:0];
-    [rule]
+//    [rule]
     
     
 }

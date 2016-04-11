@@ -20,7 +20,42 @@
     [[ServiceMonitor instance]install];
     
     
+//    [self recursionArray];
+    
     return YES;
+}
+
+/**
+ *  递归
+ */
+- (void)recursionArray {
+    
+    [self uploadArrayWithArray:@[@(1),@(2)]];
+    
+    [self uploadArrayWithArray:@[@"4",@"5",@"6"]];
+    
+    [self uploadArrayWithArray:@[@(1),@(2)]];
+}
+
+/**
+ *  递归数组
+ *
+ *  @param ay
+ */
+- (void)uploadArrayWithArray:(NSArray*)ay {
+    static NSInteger i = 0;
+    if (ay.count != i) {
+        NSLog(@"当前上传obj:%@",ay[i]);
+        i ++;
+        [self uploadArrayWithArray:ay];
+    }
+    else
+    {
+        i = 0;
+        NSLog(@"上传完毕 重置");
+        
+        NSLog(@"-----");
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
